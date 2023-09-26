@@ -1,0 +1,241 @@
+:root {
+  --color-dracula-background: #282a36;
+  --color-dracula-selection: #44475a;
+  --color-dracula-foreground: #f8f8f2;
+  --color-dracula-comment: #6272a4;
+  --color-dracula-cyan: #8be9fd;
+  --color-dracula-green: #50fa7b;
+  --color-dracula-orange: #ffb86c;
+  --color-dracula-pink: #ff79c6;
+  --color-dracula-purple: #bd93f9;
+  --color-dracula-red: #ff5555;
+  --color-dracula-yellow: #f1fa8c;
+  --color-dracula-yellow-ish: #f4f9bf;
+  --color-custom-background: #282a36;
+  --color-custom-selection: #44475a;
+  --color-custom-foreground: #f8f8f2;
+  --color-custom-comment: #6272a4;
+  --color-custom-cyan: #8be9fd;
+  --color-custom-green: #50fa7b;
+  --color-custom-orange: #ffb86c;
+  --color-custom-pink: #ff79c6;
+  --color-custom-purple: #bd93f9;
+  --color-custom-red: #ff5555;
+  --color-custom-yellow: #f1fa8c;
+  --color-custom-yellow-ish: #f4f9bf;
+}
+
+body {
+	--font-text-theme: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+	text-rendering: optimizeLegibility;
+	/* --bold-color: #ffb86c; */
+	--bold-color: var(--color-custom-orange);
+	--italic-color: var(--color-custom-yellow);
+	--blockquote-border-thickness: 4px;
+}
+
+body {
+	--accent-h: 153;
+	--accent-s: 47%;
+	--accent-l: 49%;
+	--icon-color-hover: hsl(var(--interactive-accent-hsl));
+	--background-modifier-message: hsl(var(--interactive-accent-hsl));
+	--background-modifier-hover: hsla(var(--interactive-accent-hsl), 0.05);
+	--nav-item-color-hover: hsl(var(--interactive-accent-hsl));
+	--nav-item-color-active: hsl(var(--interactive-accent-hsl));
+	--table-header-weight: var(--bold-weight);
+	--table-header-color: var(--text-normal);
+	--h1-size: 2.2em;
+	--h2-size: 1.75em;
+	--h3-size: 1.4em;
+	--h4-size: 1.2em;
+	--h5-size: 1em;
+	--h6-size: 1em;
+}
+
+.theme-dark {
+	--background-primary: #202020;
+	--background-secondary: #191919;
+	--ribbon-background: #202020;
+	--text-normal: #eeeeee;
+	--code-background: #1a1a1a;
+	--cus-inline-code-text: #f3b37f;
+	--cus-code-block-border: #1c1c1c;
+	--cus-table-header: #171717;
+	--cus-table-gap-tr: #1a1a1a;
+	--table-row-background-hover: #171717;
+	--cus-highlight-cursor-line: rgba(225, 225, 225, 0.12);
+	--background-code-preview: #1d1d1e;
+
+	--background-code: #242524;
+	--background-preview: #101010;
+	--background-primary-alt: #191a19;
+	--background-secondary-alt: #242524;
+	--background-tag: #000000;
+	--background-modifier-cover: rgba(0, 0, 0, 0.8);
+	;
+	/* --interactive-accent: #00c1ff; */
+	/* --interactive-accent-rgb: 0, 193, 255; */
+	/* --interactive-accent-hover: #00b1ef; */
+	--menu-selection: #5f5d5b;
+	--menu-selection-text: #cbcccc;
+	--scrollbar-bg: #191919;
+	--table-line: #e6e6e6;
+	/* --text-accent: #00c1ff; */
+	/* --text-accent-hover: #00b1ef; */
+	--text-faint: #8e8f92;
+	--text-highlight-bg: rgba(215, 120, 0, 0.5);
+	--text-muted: #ecebea;
+	--text-selection: #20434e;
+	--text-tag: #8c8c8c;
+	--text-on-accent: #cbcccc;
+	--background-quick: #191a19;
+	--file-hr: #2e2e2e;
+	--leaf-handle: #242524;
+}
+
+.theme-light {
+	/* --background-primary: #ECE4FF; */
+	/* --background-secondary: #D9C9FF; */
+	/* --ribbon-background: #202020; */
+	--background-code: #edeeee;
+	--background-code-preview: #f0f0f0;
+	--background-preview: #fcfcfc;
+	--background-primary: #f7f7f7;
+	--background-primary-alt: #f7f7f7;
+	--background-secondary: #fcfcfc;
+	--background-secondary-alt: #ecebea;
+	--background-tag: #ffffff;
+	--background-modifier-cover: rgba(255, 255, 255, 0.8);
+	--interactive-accent: #00b1ef;
+	--interactive-accent-rgb: 0, 193, 255;
+	--interactive-accent-hover: #00c1ff;
+	--menu-selection: #c4c3c2;
+	--menu-selection-text: #191919;
+	--scrollbar-bg: #fcfcfc;
+	--table-line: #f1f1f1;
+	--text-accent: #00b1ef;
+	--text-accent-hover: #00c1ff;
+	--text-faint: #9c9c9c;
+	--text-highlight-bg: rgba(255, 228, 0, 0.5);
+	--text-muted: #101010;
+	--text-normal: #191919;
+	--text-on-accent: #f7f7f7;
+	--text-selection: #c9e9f4;
+	--text-tag: #8c8c8c;
+	--background-quick: #f7f7f7;
+	--file-hr: #ecebea;
+	--leaf-handle: #ecebea;
+}
+
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+/* table BEGIN*/
+table thead {
+	background-color: var(--cus-table-header);
+	font-weight: bold;
+}
+
+table tr:nth-child(2n),
+thead {
+	background-color: var(--cus-table-gap-tr);
+}
+
+/* table END*/
+
+/*Cursor line BEGIN*/
+.cm-active.cm-line {
+	background: var(--cus-highlight-cursor-line) !important;
+}
+
+/*Cursor line END*/
+
+
+/*Navigator File BEGIN*/
+.nav-file-title.is-active::before {
+	border-left: 4px solid;
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 100%;
+}
+/*Navigator File END*/
+
+body {
+  --h1-color: var(--color-dracula-pink);
+  --h2-color: var(--color-dracula-purple);
+  --h3-color: var(--color-dracula-cyan);
+  --h4-color: var(--color-dracula-green);
+  --h5-color: var(--color-dracula-yellow);
+  --h6-color: var(--color-dracula-orange);
+
+  --h1-size: 2em;
+  --h2-size: 1.8em;
+  --h3-size: 1.6em;
+  --h4-size: 1.4em;
+  --h5-size: 1.2em;
+  --h6-size: 1em;
+
+  --h1-weight: 600;
+  --h2-weight: 600;
+  --h3-weight: 600;
+  --h4-weight: 600;
+  --h5-weight: 600;
+  --h6-weight: 600;
+
+  --h1-line-height: 1.3125;
+  /* 41.6px → 42px */
+  --h2-line-height: 1.2847;
+  /* 37.44px → 37px */
+  --h3-line-height: 1.2891;
+  /* 33.28px → 33px */
+  --h4-line-height: 1.2946;
+  /* 29.12px → 29px */
+  --h5-line-height: 1.3021;
+  /* 24.96px → 25px */
+  --h6-line-height: 1.3125;
+  /* 20.8px → 21px */
+}
+
+body {
+  --link-color: var(--color-dracula-pink);
+  --link-color-hover: var(--color-dracula-purple);
+  --link-external-color: var(--color-dracula-pink);
+  --link-external-color-hover: var(--color-dracula-purple);
+  --link-unresolved-color: var(--color-dracula-pink);
+  --link-unresolved-opacity: 0.5;
+  --link-unresolved-decoration-color: var(--color-dracula-pink);
+}
+
+body {
+  /* Obsidian vars */
+  --list-spacing: 0;
+  /* takes care of vertical padding on list items */
+  --list-indent: 1.172em;
+  /* with the code below, this var only affects OL */
+
+  /* Custom vars */
+  --list-item-gap: 0.375em;
+  /* bottom margin for a list item, to keep the items separated */
+  --list-ul-margin: 0.272em;
+  /* left margin of ul list, before `- ` */
+  --list-ul-bullet-width: 0.75em;
+  /* width of `- ` is 11.42px by default, we round it to 12px */
+  --list-ol-margin: 0.125em;
+  /* left margin of ol list, before `1. ` */
+  --list-ol-bullet-width: 1.75em;
+  /* width of `99. ` is 28.16px; we set it to 28px, even for `1. ` */
+  --list-task-checkbox-width: 2.0625em;
+  /* width of `[ ] ` is 33px */
+}

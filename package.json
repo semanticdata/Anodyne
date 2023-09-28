@@ -1,6 +1,6 @@
 {
-    "name": "sample-obsidian-theme",
-    "version": "1.0.0",
+    "name": "Anodyne",
+    "version": "0.2.0",
 	"scripts": {
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	}

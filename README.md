@@ -1,28 +1,16 @@
-This is a sample theme for Obsidian ([https://obsidian.md](https://obsidian.md/)).
+<p align="right">
+  <img src="https://img.shields.io/github/languages/code-size/semanticdata/anodyne" />
+  <img src="https://img.shields.io/github/repo-size/semanticdata/anodyne" />
+  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/anodyne" />
+  <img src="https://img.shields.io/github/last-commit/semanticdata/anodyne" />
+  <img src="https://img.shields.io/website/https/semanticdata.github.io/anodyne.svg" />
+</p>
 
-## First Time publishing a theme?
-
-### Quick start
-
-<img width="244" alt="Pasted image 20220822135601" src="https://user-images.githubusercontent.com/693981/186000386-4f4da987-fcaf-4aa5-aed4-e34b5901255d.png">
-
-First, choose **Use this template**. That will create a copy of this repository (repo) under your Github profile. Then, you will want to _clone_ your new repository to your computer.
-
-Once you have the repo locally on your computer, there are a couple of placeholder fields you will need to fill in.
-
-1. Inside the `manifest.json` file, change the "name" field to whatever you want the name of your theme to be. For example:
-
-  ```json
-  {
-    "name": "Moonstone",
-    "version": "0.0.0",
-    "minAppVersion": "1.0.0"
-  }
-  ```
-
-2. Also inside the manifest.json file, you can include your name under next to the "author" field.
-
-After you have those fields configured, all that's left to do is add your styles! All of your CSS needs to be inside the file `theme.css` which is located at root of your repository.
+<div align=center>
+<h1>Anodyne</h1>
+<p>Relaxing, capable of soothing or eliminating pain.</p>
+<p>Personal <i><u>blog</u></i>.</p>
+</div>
 
 ## Adding your theme to the Theme Gallery
 
@@ -93,3 +81,7 @@ Releasing a new version of your theme is the same as releasing the initial versi
   ```
 
   What's important to note here is: the new version is included as the "key" and the "value" is the minimum version of Obsidian that your theme compatible with. So if the new version of your theme is only compatible with an Insider version of Obsidian, it's important to set this value accordingly. This will prevent users on older versions of Obsidian from updating to the newer version of your theme.
+
+## License
+
+Source code is available under [MIT](LICENSE).

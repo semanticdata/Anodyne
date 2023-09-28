@@ -8,7 +8,7 @@
 <div align=center>
 <h1>Anodyne</h1>
 <p>Relaxing, capable of soothing or eliminating pain.</p>
-<p>Personal <i><u>blog</u></i>.</p>
+<p>Theme for <a href="https://obsidian.md">Obsidian</a>.</p>
 </div>
 
 ## Adding your theme to the Theme Gallery

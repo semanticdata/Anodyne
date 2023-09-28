@@ -1,8 +1,8 @@
 <p align="right">
-  <img src="https://img.shields.io/github/languages/code-size/semanticdata/Anodyne" />
-  <img src="https://img.shields.io/github/repo-size/semanticdata/Anodyne" />
-  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/Anodyne" />
-  <img src="https://img.shields.io/github/last-commit/semanticdata/Anodyne" />
+  <img src="https://img.shields.io/github/languages/code-size/semanticdata/anodyne" />
+  <img src="https://img.shields.io/github/repo-size/semanticdata/anodyne" />
+  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/anodyne" />
+  <img src="https://img.shields.io/github/last-commit/semanticdata/anodyne" />
 </p>
 
 <div align=center>

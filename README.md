@@ -7,7 +7,7 @@
 
 <div align=center>
 <h1>Anodyne</h1>
-<p>Relaxing, capable of soothing or eliminating pain.</p>
+<p><i>Relaxing, capable of soothing or eliminating pain.</i></p>
 <p>Theme for <a href="https://obsidian.md">Obsidian</a>.</p>
 </div>
 

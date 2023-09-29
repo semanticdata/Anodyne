@@ -3,6 +3,7 @@
   <img src="https://img.shields.io/github/repo-size/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/anodyne" />
+	<br />⚠ Under development ⚠ Work-in-Progress ⚠
 </p>
 
 <div align=center>

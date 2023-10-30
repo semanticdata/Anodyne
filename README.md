@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/last-commit/semanticdata/anodyne" />
 	<br /></p>
 
-<h3 align=center>⚠ This repo is under development. ❗ Please consider it a Work-in-Progress. ⚠
+<h3 align=center>⚠ This repo is under development. Please consider it a Work-in-Progress. ⚠
 </h3>
 
 <div align=center>

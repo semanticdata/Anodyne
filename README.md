@@ -3,8 +3,10 @@
   <img src="https://img.shields.io/github/repo-size/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/anodyne" />
-	<br />⚠ Under development ⚠ Work-in-Progress ⚠
-</p>
+	<br /></p>
+
+<h2 align=center>⚠ Under development ⚠ Work-in-Progress ⚠
+</h2>
 
 <div align=center>
 <h1>Anodyne</h1>

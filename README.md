@@ -1,15 +1,15 @@
-<p align="right">
+**⚠ This repo is under development. It is not ready for release yet. ⚠**
+
+<div align=center>
+<h1>Anodyne</h1>
+
+<p>
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/anodyne" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/anodyne" />
-	<br /></p>
+</p>
 
-<h3 align=center>⚠ This repo is under development. Please consider it a Work-in-Progress. ⚠
-</h3>
-
-<div align=center>
-<h1>Anodyne</h1>
 <p><i>Relaxing, capable of soothing or eliminating pain.</i></p>
 <p>Theme for <a href="https://obsidian.md">Obsidian</a>.</p>
 </div>

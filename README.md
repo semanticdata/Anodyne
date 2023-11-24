@@ -1,4 +1,4 @@
-**⚠ This repo is under development. It is not ready for release yet. ⚠**
+<h3 align=center>⚠ Not ready for release. This is a work in progress. ⚠</h3>
 
 <div align=center>
 <h1>Anodyne</h1>

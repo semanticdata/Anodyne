@@ -1,16 +1,8 @@
+/* CSS Variables */
 :root {
-	--color-custom-background: #282a36;
-	--color-custom-selection: #44475a;
-	--color-custom-foreground: #f8f8f2;
-	--color-custom-comment: #6272a4;
-	--color-custom-cyan: #8be9fd;
-	--color-custom-green: #50fa7b;
-	--color-custom-orange: #ffb86c;
 	--color-custom-pink: #ff8fce;
 	--color-custom-purple: #c6a0f6;
-	--color-custom-red: #ff5555;
 	--color-custom-yellow: #f1fa8c;
-	--color-custom-yellow-ish: #f4f9bf;
 	--color-custom-h1: #ed8796;
 	--color-custom-h2: #f5a97f;
 	--color-custom-h3: #a6da95;
@@ -19,12 +11,10 @@
 	--color-custom-h6: #c6a0f6;
 	--color-custom-bold: #ed8796;
 	--color-custom-italic: #f1fa8c;
-	--color-custom-link: #eed49f;
 	--color-custom-bg-dark: #24273a;
 	--color-custom-bg-dark-accent: #1e2030;
 	--color-custom-bg-dark-alt: #202020;
 	--color-custom-bg-dark-accent-alt: #191919;
-	--color-custom-vue-green: #42b883;
 	--font-custom-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
 }
 
@@ -68,8 +58,7 @@
 }
 
 body {
-	/* --font-text-theme: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif; */
-	--font-text-theme:var(--font-custom-family);
+	--font-text-theme: var(--font-custom-family);
 	--bold-color: var(--color-custom-bold);
 	--italic-color: var(--color-custom-italic);
 	--blockquote-border-thickness: 4px;
@@ -202,3 +191,50 @@ thead {
 	top: 0;
 	height: 100%;
 }
+
+/* Minimal - Resource */
+/* 
+.theme-dark {
+
+	--background-primary: #000000;
+	--background-primary-alt: #000000;
+	--background-secondary: #000000;
+	--background-secondary-alt: #000000;
+
+	--text-normal: #c0c1a1;
+	--text-muted: #DADADA;
+	--text-faint: #DADADA;
+	--text-accent: #ffdf22;
+	--text-on-accent: #cdcd43;
+
+	--italic-color: #fff6dd;
+	--bold-color: #EEEEEE;
+	--tag-color: #24cf00;
+	--code-normal: #fb6666;
+	--link-external-color: #bbcdff;
+	--text-selection: #678ba6;
+
+	--h1-color: #6694e2;
+	--h2-color: #77ca61;
+	--h3-color: #e0b73d;
+	--h4-color: #da6fd5;
+	--h5-color: #94c0bd;
+	--h6-color: #f34545;
+
+	--inline-title-color: #FFFFFF;
+	--tab-text-color-focused-active-current: #6694e2;
+	--icon-color-focused: #6694e2;
+	--icon-color-hover: #6694e2;
+	--nav-item-color-hover: #6694e2;
+	--nav-item-background-active: #393939;
+	--nav-file-tag: #f4ec9e;
+	--nav-indentation-guide-color: #5f6148;
+	--interactive-accent: #6f6f6f;
+	--scrollbar-thumb-bg: #3f3e3e;
+	--indentation-guide-color: #5f6148;
+	--indentation-guide-color-active: #808261;
+	--table-header-background: #2a2a2a;
+	--table-row-alt-background: #141414;
+} */
+
+/* For more css snippets: https://github.com/zamsyt/obsidian-snippets/blob/main/Note%20color%20scheme.css */

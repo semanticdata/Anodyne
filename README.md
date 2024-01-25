@@ -14,6 +14,22 @@
 <p>Theme for <a href="https://obsidian.md">Obsidian</a>.</p>
 </div>
 
+## Table of Contents
+
+<details>
+<summary>Show/Hide</summary>
+
+- [Table of Contents](#table-of-contents)
+- [Adding your theme to the Theme Gallery](#adding-your-theme-to-the-theme-gallery)
+  - [Add a screenshot thumbnail](#add-a-screenshot-thumbnail)
+  - [Submit your theme for review](#submit-your-theme-for-review)
+- [Releasing Versions _(Optional)_](#releasing-versions-optional)
+  - [Steps for releasing the initial version of your theme (1.0.0)](#steps-for-releasing-the-initial-version-of-your-theme-100)
+  - [Steps for releasing new versions](#steps-for-releasing-new-versions)
+- [License](#license)
+
+</details>
+
 ## Adding your theme to the Theme Gallery
 
 ### Add a screenshot thumbnail
@@ -86,4 +102,4 @@ Releasing a new version of your theme is the same as releasing the initial versi
 
 ## License
 
-Source code is available under [MIT](LICENSE).
+Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.

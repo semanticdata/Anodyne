@@ -1,5 +1,3 @@
-<h3 align=center>⚠ Not ready for release. This is a work in progress. ⚠</h3>
-
 <div align=center>
 <h1>Anodyne</h1>
 
@@ -11,14 +9,18 @@
 </p>
 
 <p><i>Relaxing, capable of soothing or eliminating pain.</i></p>
-<p>Theme for <a href="https://obsidian.md">Obsidian</a>.</p>
 </div>
+
+## Overview
+
+Theme for [Obsidian](https://obsidian.md/).
 
 ## Table of Contents
 
 <details>
 <summary>Show/Hide</summary>
 
+- [Overview](#overview)
 - [Table of Contents](#table-of-contents)
 - [Adding your theme to the Theme Gallery](#adding-your-theme-to-the-theme-gallery)
   - [Add a screenshot thumbnail](#add-a-screenshot-thumbnail)
@@ -50,7 +52,7 @@ If your theme is getting more and more complex, you might want to start thinking
 ### Steps for releasing the initial version of your theme (1.0.0)
 
 1. From your theme's repository, click on "Releases".
-   
+
 <img width="235" alt="Pasted image 20220822145001" src="https://user-images.githubusercontent.com/693981/186000441-287a1a97-65f6-4b5f-ba66-810ceae91cd3.png">
 
 2. On the Releases page, there should be a button to **Draft a new Release**. Press it.
@@ -58,16 +60,18 @@ If your theme is getting more and more complex, you might want to start thinking
 <img width="202" alt="Pasted image 20220822145048" src="https://user-images.githubusercontent.com/693981/186000664-6c63ae14-f685-4d39-bfe6-324f95cd9669.png">
 
 3. Fill out the Release information form.
-	- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
-		<img width="340" alt="Pasted image 20220822145648" src="https://user-images.githubusercontent.com/693981/186000848-bd1c2619-ea09-4e70-a886-40769cda6921.png">
-	- **Release Title**: This can be the version number.
-	- **Description** _Optional_: Anything that changed
-	- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
+
+- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
+  <img width="340" alt="Pasted image 20220822145648" src="https://user-images.githubusercontent.com/693981/186000848-bd1c2619-ea09-4e70-a886-40769cda6921.png">
+- **Release Title**: This can be the version number.
+- **Description** _Optional_: Anything that changed
+- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
 
 <img width="946" alt="Pasted image 20220822145356" src="https://user-images.githubusercontent.com/693981/186000772-e689ecea-c3b7-4e9d-9204-7ad62c0123aa.png">
 
 4. Click "Publish Release."
 5. Make sure that `versions.json` is set up correctly. This file is a map.
+
   ```json
   {
     "1.0.0": "0.16.0"
@@ -75,7 +79,7 @@ If your theme is getting more and more complex, you might want to start thinking
   ```
   
   This means that version 1.0.0 of your theme is compatible with version 0.16.0 of Obsidian. For the initial release of your theme, you shouldn't need to make any changes to this file.
- 
+
 ### Steps for releasing new versions
 
 Releasing a new version of your theme is the same as releasing the initial version.
@@ -83,18 +87,20 @@ Releasing a new version of your theme is the same as releasing the initial versi
 1. From your theme's repository, click on "Releases."
 2. On the Releases page, there should be a button to **Draft a new Release**. Press it.
 3. Fill out the Release information form.
-	- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
-		<img width="333" alt="Pasted image 20220822145812" src="https://user-images.githubusercontent.com/693981/186000912-f494def9-0f67-4662-92bf-bd278082455f.png">
-	- **Release Title**: This can be the version number.
-	- **Description** _Optional_: Anything that changed
-	- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
+
+- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
+  <img width="333" alt="Pasted image 20220822145812" src="https://user-images.githubusercontent.com/693981/186000912-f494def9-0f67-4662-92bf-bd278082455f.png">
+- **Release Title**: This can be the version number.
+- **Description** _Optional_: Anything that changed
+- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
 
 4. Click "Publish Release."
 5. Update the `versions.json` file in your repository. For the initial release of your theme, you probably didn't need to make any changes to the `versions.json` file. When you release subsequent versions of your theme; however, it's best practice to include the new version as entry in the versions.json file. So this might look like:
+
   ```json
   {  
-		"1.0.0": "0.16.0",
-		"1.0.1": "0.16.0"
+  "1.0.0": "0.16.0",
+  "1.0.1": "0.16.0"
   }
   ```
 
@@ -102,4 +108,4 @@ Releasing a new version of your theme is the same as releasing the initial versi
 
 ## License
 
-Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT License](LICENSE).

@@ -13,7 +13,7 @@
 
 ## Overview
 
-Theme for [Obsidian](https://obsidian.md/).
+Theme for [Obsidian](https://obsidian.md/). Work in progress.
 
 ## Table of Contents
 

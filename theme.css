@@ -21,6 +21,19 @@
 	--h4-color: var(--color-custom-h4);
 	--h5-color: var(--color-custom-h5);
 	--h6-color: var(--color-custom-h6);
+	--color-red: #ff4140;
+	--color-orange: #fac79e;
+	--color-yellow: #faf69c;
+	--color-green: #9cfac7;
+	--color-blue: #9cfaf6;
+	--color-purple: #9ca0fa;
+	--color-pink: #fa9ccf;
+	--h1-size: 2.2em;
+	--h2-size: 1.75em;
+	--h3-size: 1.4em;
+	--h4-size: 1.2em;
+	--h5-size: 1em;
+	--h6-size: 1em;
 }
 
 /* Others imported from previous version. */
@@ -121,4 +134,305 @@ body {
 
 .nav-folder.mod-root > .nav-folder-title:hover {
 	background-color: var(--titlebar-background-focused);
+}
+
+/* From Prime */
+/* Folder & file icons */
+body.theme-dark .nav-folder-title > .nav-folder-title-content::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath d='M4 5V19H20V7H11.5858L9.58579 5H4ZM12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5Z' fill='rgba(192,192,192,1)'%3E%3C/path%3E%3C/svg%3E");
+	padding: 4px;
+}
+
+body.theme-dark .nav-file-title > .nav-file-title-content::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath d='M9 2.00318V2H19.9978C20.5513 2 21 2.45531 21 2.9918V21.0082C21 21.556 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5501 3 20.9932V8L9 2.00318ZM5.82918 8H9V4.83086L5.82918 8ZM11 4V9C11 9.55228 10.5523 10 10 10H5V20H19V4H11Z' fill='rgba(192,192,192,1)'%3E%3C/path%3E%3C/svg%3E");
+	padding: 4px;
+}
+
+body.theme-light .nav-folder-title > .nav-folder-title-content::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath d='M4 5V19H20V7H11.5858L9.58579 5H4ZM12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5Z' fill='rgba(116,116,116,1)'%3E%3C/path%3E%3C/svg%3E");
+	padding: 4px;
+}
+
+body.theme-light .nav-file-title > .nav-file-title-content::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath d='M9 2.00318V2H19.9978C20.5513 2 21 2.45531 21 2.9918V21.0082C21 21.556 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5501 3 20.9932V8L9 2.00318ZM5.82918 8H9V4.83086L5.82918 8ZM11 4V9C11 9.55228 10.5523 10 10 10H5V20H19V4H11Z' fill='rgba(116,116,116,1)'%3E%3C/path%3E%3C/svg%3E");
+	padding: 4px;
+}
+
+/* From Typora Vue */
+/*Navigator File BEGIN*/
+.nav-file-title.is-active::before {
+	border-left: 4px solid hsl(var(--interactive-accent-hsl));
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 100%;
+}
+/*Navigator File END*/
+
+/* Older CSS Snippets */
+/*
+    Frontmatter tweaks
+    Style frontmatter to be less prominent than the body of the note.
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.cm-s-obsidian .cm-def:nth-of-type(1) {
+	/* both --- */
+	/* font-size:50%; */
+}
+.cm-s-obsidian .cm-line:nth-of-type(1) .cm-def {
+	/* first --- */
+	/* background:blue; */
+	color: var(--blockquote-color);
+}
+.cm-s-obsidian .cm-line:nth-of-type(1) ~ .cm-line .cm-def {
+	/* last --- */
+	color: var(--blockquote-color);
+}
+
+.cm-s-obsidian .cm-hmd-frontmatter {
+	font-size: 75%;
+}
+.cm-s-obsidian span.cm-meta {
+	/* opacity:0.5 */
+}
+
+/* Editor: Override Syntax Highlighter Frontmatter styles */
+
+.cm-s-obsidian .cm-line .cm-hmd-frontmatter.cm-atom {
+	color: var(--text-normal);
+}
+.cm-s-obsidian .cm-line .cm-hmd-frontmatter ~ .cm-hmd-frontmatter {
+	color: var(--blockquote-color);
+}
+
+/*
+Add translucent background to internal links.
+*/
+
+.cm-s-obsidian span.cm-hmd-internal-link,
+a.internal-link {
+	background-color: #8f9fa937;
+	padding: 0 0.1em;
+	margin: auto -0.1em;
+	border-radius: 3px;
+}
+
+/*
+Remove external link anchor.
+*/
+
+.internal-link {
+	text-decoration: none;
+}
+
+.external-link {
+	background: none;
+	padding-right: 0;
+}
+
+/*
+Style tables.F
+*/
+
+:root {
+	--table-border-color: var(--text-faint);
+}
+
+/* Border color */
+.cm-s-obsidian .cm-table-widget th,
+.cm-s-obsidian .cm-table-widget td {
+	border-color: var(--table-border-color);
+}
+
+/* Bold header row */
+.cm-s-obsidian .cm-table-widget th {
+	font-weight: bold;
+}
+
+/* use sans font */
+.markdown-rendered tbody td {
+	/* color: cyan; */
+	/* font-family: monospace; */
+}
+
+/* lighten alternate row background */
+.markdown-rendered tbody tr:nth-child(odd) {
+	background-color: #2a3a3a80;
+}
+
+/*
+    Typography
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Fix list offset */
+.HyperMD-list-line.cm-line {
+	transform: translate(-8px, 0);
+}
+
+/* Fix list styling */
+.HyperMD-list-line.cm-line .cm-formatting-list {
+	margin-left: -5px;
+	margin-right: 4px;
+}
+
+/* list and blockquote colors */
+.cm-s-obsidian .cm-formatting-list,
+.cm-s-obsidian .cm-formatting-quote {
+	color: var(--tx2);
+}
+
+.cm-s-obsidian .cm-formatting-quote {
+	transform: translate(-3px, 0);
+	display: inline-block;
+}
+
+/* Headings */
+.cm-s-obsidian {
+	--h1-size: 2em !important;
+	--h2-size: 1.5em !important;
+	--h3-size: 1.25em !important;
+	--h3-weight: 600 !important;
+	--h4-size: 1em !important;
+	--h4-weight: 600 !important;
+	--h4-variant: normal !important;
+	--h5-size: 0.875em !important;
+	--h5-weight: 600 !important;
+	--h5-variant: normal !important;
+	--h6-size: 0.75em !important;
+	--h6-weight: 600 !important;
+	--h6-variant: normal !important;
+}
+
+/* h5, 
+.markdown-rendered h5, 
+.HyperMD-header-5, 
+.HyperMD-list-line .cm-header-5 {
+    text-transform: uppercase;
+    letter-spacing:0.05em
+}
+
+h6, 
+.markdown-rendered h6, 
+.HyperMD-header-6, 
+.HyperMD-list-line .cm-header-6 {
+    text-transform: uppercase;
+    letter-spacing:0.05em
+} */
+
+/* Quotes */
+.HyperMD-quote {
+	display: block !important;
+}
+.HyperMD-quote::before {
+	opacity: 0;
+}
+.HyperMD-quote::after {
+	content: "";
+	display: block;
+	background: var(--bg3);
+	width: 4px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.HyperMD-quote.cm-active {
+	border-color: transparent;
+}
+.HyperMD-quote.cm-active::after {
+	display: none;
+}
+
+.HyperMD-quote cite {
+	color: var(--tx3);
+	display: inline-block;
+}
+
+/* fix is-flashing display */
+
+.cm-editor .is-flashing {
+	background: hsla(
+		var(--base-h),
+		var(--base-s),
+		calc(var(--base-l) + 30%),
+		0.5
+	);
+}
+
+/* Footnote styles */
+.HyperMD-footnote {
+	color: var(--tx2);
+	/* font-size:12px !important; */
+}
+
+.HyperMD-footnote .cm-hmd-internal-link > * {
+	color: var(--tx2) !important;
+	text-decoration-color: var(--tx2) !important;
+	opacity: 1 !important;
+}
+
+/*
+MySnippets plugin tweaks.
+*/
+
+/* Embiggen menu width for longer filenames */
+.MySnippets-statusbar-menu {
+	width: auto;
+	height: auto;
+}
+
+.MySnippets-statusbar-menu .menu-item {
+	padding: 0;
+}
+
+/* Re-order menu item */
+.MySnippets-statusbar-menu .menu-item .checkbox-container {
+	order: 1;
+}
+
+/* Make code button less prominent */
+.MySnippets-statusbar-menu .MS-OpenSnippet {
+	box-shadow: none;
+	background: transparent;
+}
+.MySnippets-statusbar-menu .MS-OpenSnippet:hover svg path {
+	fill: var(--interactive-accent) !important;
+}
+
+/* Fix open snippet button on light themes */
+.theme-light .MS-OpenSnippet svg path {
+	fill: var(--tx3) !important;
+}
+
+/*
+    Compact Tab Header
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Make header title left justified */
+.view-header-title-container {
+	justify-content: start;
+}
+.view-header-title-container .view-header-title {
+	color: var(--tx2) !important;
+}
+.view-header-title-container .view-header-title:hover,
+.view-header-title-container .view-header-title:focus {
+	color: var(--tx1) !important;
+}
+
+/* Condensed Icon spacing */
+.view-header .view-actions .clickable-icon {
+	color: var(--tx2) !important;
+	transition: 0.2s color ease-in;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.view-header .view-actions:hover .clickable-icon {
+	color: var(--tx1) !important;
 }
